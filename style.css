@@ -1,0 +1,47 @@
+body{
+    background-color: #272343;
+}
+.heading{
+    color: #9e006f;
+}
+.row{
+    width: 30%;
+}
+.timer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas{
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.fa-play{
+    color: #00b92e;
+}
+.fa-redo-alt{
+    color: #ff0000;
+}
+.fa-play:hover{
+    border: 2px solid #00b92e;
+    transition: 0.3sec ease;
+}
+.fa-redo-alt:hover{
+    border: 2px solid #ff0000;
+    transition: 0.3sec ease;
+}
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: #272343;
+    background-color: #e3f6f5;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
